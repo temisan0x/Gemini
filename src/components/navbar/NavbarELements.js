@@ -1,9 +1,7 @@
-import {FaBars} from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-border-bottom: 1px solid rgba(128, 128, 128, 0.829);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.829);
     z-index:50;
     position:sticky;
     top: 0;
@@ -13,6 +11,12 @@ border-bottom: 1px solid rgba(128, 128, 128, 0.829);
     padding-left:20px;
     padding-right:20px;
     
+    
+    a {
+        text-decoration:none;
+        color:inherit;
+    }
+
     .logo {
         padding:15px 0;
     }
@@ -43,7 +47,7 @@ export const NavMenu = styled.ul`
     li {
         padding:18px 10px;
         line-height:28px;
-        font-size: 14px
+        font-size: 16px
     }
 
     @media screen and (max-width:768px) {
