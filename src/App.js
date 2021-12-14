@@ -5,13 +5,11 @@ import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <>
-          <Router>
-            <Navbar/>
-          </Router>
-        </>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar/>    
+      </div>
+    </Router>
   );
 }
 
