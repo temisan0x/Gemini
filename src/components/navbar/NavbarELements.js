@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    border-bottom: 1px solid rgba(128, 128, 128, 0.829);
     z-index:50;
     position:sticky;
     top: 0;
