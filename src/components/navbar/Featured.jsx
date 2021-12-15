@@ -36,28 +36,32 @@ const FeaturedSection = styled.div `
 
     @media screen and (max-width:900px) {
         flex-direction: column;
-        height:32px;
     }
 `
 
 const FeaturedIn = styled.div`
-    padding: 20px 10px;
-    flex: 0 1 auto;
-    width: 100%;
     display: flex;
-    -moz-box-pack: center;
-    justify-content: center;
+    flex-direction: column;
+
+    img {
+        width:200px;
+    }
+
+    @media screen and (max-width:900px) {
+            align-items:center;  
+            margin-top: 42px;
+        }
 `
 
 
 function Featured() {
     return (
         <FeaturedSection>
-            <FeaturedIn>
             {features.map((feature) => (
-                <img src={feature.photo} alt="logo" />
+            <FeaturedIn>
+                <img src={feature.photo} alt="logo" />         
+                </FeaturedIn>
             ))}
-            </FeaturedIn>
         </FeaturedSection>
     )
 }
