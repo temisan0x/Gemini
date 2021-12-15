@@ -6,6 +6,7 @@ import SimpleSlider from './components/SimpleSlider';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Hero from './components/navbar/Hero';
+import Featured from './components/navbar/Featured';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>  
         {/* <SimpleSlider/> */}
         <Hero />
+        <Featured/>
       </div>
     </Router>
   );
