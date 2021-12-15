@@ -25,7 +25,35 @@ const Container = styled.div`
         font-size: 72px;
         line-height: 88px;
         font-weight: 700;
+    }
 
+    .btn_started {
+        visibility: visible;
+        outline: currentcolor none 0px;
+        padding: 0px 24px;
+        margin-top: 20px;
+        cursor: pointer;
+        min-width: 160px;
+        height: 48px;
+        border-radius: 16px;
+        background-color: rgb(1, 3, 4);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0.33px;
+        text-align: center;
+        border: 2px solid rgb(1, 3, 4);
+        transition: border-color 300ms ease-in 0s, color 300ms ease-in 0s, background-color 300ms ease-in 0s;
+        white-space: nowrap;
+    }
+
+    .text_text {
+        color: rgb(1, 3, 4);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 2px;
+        margin-top: 30px
     }
 
     @media (max-width: 900px) {
@@ -46,23 +74,18 @@ const Container = styled.div`
             line-height: 44px;
         }
 
-        .text_text {
-            color: rgb(1, 3, 4);
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 2px;
-            margin-top: 30px
-        }
-
         .image_container {
             width: 100%;
             margin: 0 auto;
         }
 
+        .btn_started {
+            margin-bottom:50px;
+        }
+
         .br {
             margin-top:50px
         }
-
     }
     
 
@@ -76,7 +99,7 @@ function Hero() {
                     <h1 className='header_text'>Buy bitcoin and crypto instantly!</h1>
                     <p className="text_text">Gemini is a simple, elegant and secure</p>
                     <p className="text_text">platform to build your crypto portfolio</p>
-                    <button className="">
+                    <button className="btn_started">
                         Get started
                     </button>
                     <br className="br"/>
