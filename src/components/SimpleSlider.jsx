@@ -58,7 +58,6 @@ const SliderWrapper = styled.div `
 export default class SimpleSlider extends Component {
     render() {
         const settings = {
-        dots: true,
         fade: true,
         infinite: true,
         speed: 500,

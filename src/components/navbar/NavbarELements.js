@@ -27,26 +27,27 @@ export const NavMenu = styled.ul`
     flex-flow:row nowrap;
     font-weight: 400;
 
+
     @media screen and (max-width:768px) {
-        flex-flow:column nowrap;
+        align-items:center;
         position:fixed;
         z-index:-1;
         right:0;
         top:0;
         height:100vh;
-        width:300px;
+        width:80%;
         padding-top:3.5rem;
-        display:block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        flex-direction:column;
         transition:0.3s ease-in-out;
         transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
+        background-color:white;
+   
     }
 
     li {
         padding:18px 10px;
         line-height:28px;
-        font-size: 16px
+        font-size: 16px;
     }
 
     @media screen and (max-width:768px) {
@@ -93,6 +94,7 @@ export const Bars = styled.div`
     display: none;
     z-index:100;
     display:none;
+ 
 
     @media (max-width:768px){
         display:flex;
