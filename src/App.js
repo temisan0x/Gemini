@@ -11,7 +11,8 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>  
-        <SimpleSlider/>
+        {/* <SimpleSlider/> */}
+        
       </div>
     </Router>
   );
