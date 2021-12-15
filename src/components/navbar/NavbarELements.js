@@ -41,11 +41,10 @@ export const NavMenu = styled.ul`
         transition:0.3s ease-in-out;
         transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
         background-color:white;
-   
     }
 
     li {
-        padding:18px 30px;
+        padding:18px 10px;
         line-height:28px;
         font-size: 16px;
     }
@@ -67,6 +66,9 @@ export const NavMenu = styled.ul`
             justify-content: center;
             width: 100%;
             border-bottom: 0.5px solid grey;
+            padding:18px 30px;
+            line-height:28px;
+            font-size: 16px;
         }
     }
 `
