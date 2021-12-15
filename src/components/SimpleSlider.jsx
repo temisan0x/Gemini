@@ -1,18 +1,25 @@
 import Slider from "react-slick";
 import React, { Component } from "react";
+import styled from "styled-components";
+
+
 
 const names = [
     {
-        name: "introducing the Gemini card"
+        "id":1,
+        "name": "introducing the Gemini card"
     },
     {
-        name: "introducing the Gemini card"
+        "id":2,
+        "name": "engage with what you love doing"
     },
     {
-        name: "introducing the Gemini card"
+        "id":3,
+        "name": "appreciate your life bro"
     },
     {
-        name: "introducing the Gemini card"
+        "id":4,
+        "name": "success is not free"
     }
 ]
 
@@ -30,15 +37,15 @@ export default class SimpleSlider extends Component {
         };
         return (
             <div>
-            <Slider {...settings}>
-                {names.map((name)=> {
-                    return(
-                        <div>
-                            <li>{name}</li>
-                        </div>
-                    )
-                })}
-            </Slider>
+                <Slider {...settings}>
+                    {names.map((name)=> {
+                        return(
+                            <div>
+                                <li>{name.name}</li>
+                            </div>
+                        )
+                    })}
+                </Slider>
             </div>
         );
         }
