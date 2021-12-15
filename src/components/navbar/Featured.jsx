@@ -28,18 +28,19 @@ const features = [{
 }
 ]
 
-const Featured = styled.div `
-
+const FeaturedSection = styled.div `
+    display: flex;
+    
 `
 
 
 function Featured() {
     return (
-        <Featured>
+        <FeaturedSection>
         {features.map((feature) => (
             <img src={feature.photo} alt="logo" />
         ))}
-        </Featured>
+        </FeaturedSection>
     )
 }
 
