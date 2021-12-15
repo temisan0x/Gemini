@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     align-items: center;
     padding-left:20px;
     padding-right:20px;
-    
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     
     a {
         text-decoration:none;
@@ -45,7 +45,7 @@ export const NavMenu = styled.ul`
     }
 
     li {
-        padding:18px 10px;
+        padding:18px 30px;
         line-height:28px;
         font-size: 16px;
     }
@@ -94,7 +94,6 @@ export const Bars = styled.div`
     display: none;
     z-index:100;
     display:none;
- 
 
     @media (max-width:768px){
         display:flex;
