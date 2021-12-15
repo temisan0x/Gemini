@@ -2,40 +2,44 @@ import React from 'react';
 import styled from 'styled-components';
 import NewYorkTimes from '../../img/index.svg';
 import Bloomberg from '../../img/bloom.svg';
-import WallStreetJournal from '../../img/bloom.svg';
+import WallStreetJournal from '../../img/wall-street.svg';
 import Fortune from '../../img/fortune.svg';
-import Wired from '../../img/fortune.svg'
+import Wired from '../../img/wired.svg'
 
 const features = [{
     id:1,
-    photo: {NewYorkTimes},
+    photo: NewYorkTimes,
 },
 {
     id:2,
-    photo: {Bloomberg},
+    photo: Bloomberg,
 },
 {
     id:3,
-    photo: {WallStreetJournal},
+    photo: WallStreetJournal,
 },
 {
     id:4,
-    photo:{Fortune},
+    photo:Fortune,
 },
 {
     id:5,
-    photo:{Wired}
+    photo:Wired
 }
 ]
+
+const Featured = styled.div `
+
+`
 
 
 function Featured() {
     return (
-        <>
-        {features.map((feature) => {
-            <li> <img src={feature.photo} alt="logo" /></li>
-            })}
-        </>
+        <Featured>
+        {features.map((feature) => (
+            <img src={feature.photo} alt="logo" />
+        ))}
+        </Featured>
     )
 }
 
