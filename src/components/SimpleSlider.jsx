@@ -21,10 +21,6 @@ const SliderWrapper = styled.div `
         border-radius: 50%;
     }
 
-    div {
-        display:flex;
-    }
-
     .color1 {
         background-color: rgb(26, 28, 29);
     }
@@ -40,6 +36,22 @@ const SliderWrapper = styled.div `
 
     .color4 {
         background-color: rgb(26, 26, 26);
+    }
+
+    .slick-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide-text {
+        margin-left:20px;
+    }
+
+    img{
+        width:24px;
+        display:block;
+        cursor:pointer;
     }
 `
 
@@ -58,19 +70,24 @@ export default class SimpleSlider extends Component {
             <SliderWrapper>
                 <Slider {...settings}>
                     <div className="color1">
-                        <h3>1</h3>
+                        <div className="slick-flex"><img src="https://images.ctfassets.net/jg6lo9a2ukvr/yiWuKktCSLvvgUnx0fZVA/9e29e63c1fbaa5d595f69aca363321ff/Cryptopedia_Homepage_Icon.svg?fm=webp" alt="logo" />
+                        <p className="slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                        </div>
                     </div>
                     <div className="color2">
-                        <h3>2</h3>
+                        <div className="slick-flex"><img src="https://images.ctfassets.net/jg6lo9a2ukvr/bxJjuhCjBxHsnCQCXjdVp/2a0b014d1ca9e4df8662c6486d479b16/Gemini_Earn_Icon.svg?fm=webp" alt="logo" />
+                        <p className="slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                        </div>
                     </div>
                     <div className="color3">
-                        <h3>3</h3>
+                        <div className="slick-flex"><img src="https://images.ctfassets.net/jg6lo9a2ukvr/6Ms3LOjZTnJ13Kse2Z8lBO/4f82519a586b922e39f785cca7bbfe05/Subtract.svg?fm=webp" alt="logo" />
+                        <p className="slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                        </div>
                     </div>
                     <div className="color4">
-                        <h3>4</h3>
-                    </div>
-                    <div className="color5">
-                        <h3>5</h3>
+                        <div className="slick-flex"><img src="https://images.ctfassets.net/jg6lo9a2ukvr/1D7Gxq3hAUdV4dIYlw0TWM/943312b8b271f4b2dcb9c78158f63ed3/Creditcard.svg?fm=webp" alt="logo" />
+                        <p className="slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                        </div>
                     </div>
                 </Slider>
             </SliderWrapper>
