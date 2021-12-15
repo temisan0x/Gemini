@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../../img/index.jpg'
 import Burger from './Burger'
 import {
@@ -10,7 +11,9 @@ function Navbar() {
         <>
         <Nav>
             <div className="logo">
-                <img src={Logo} alt="logo" width={130}/>
+                <Link to="/">
+                    <img src={Logo} alt="logo" width={130}/>
+                </Link>
             </div>
             <Burger/>
         </Nav>
