@@ -13,7 +13,7 @@ export const RightNav = ({open}) => {
             <li><p><Link class="nav-link nav-link-ltr" to="/instructions" href="#">Institutions</Link></p></li>
             <li><p><Link class="nav-link nav-link-ltr" to="/resources" href="#">Resources</Link></p></li>
             <li><p><Link class="nav-link nav-link-ltr" to="/email" href="#">Email Us</Link></p></li>
-            <li><p className="get-started"><Link class="" to="signin" href="#">Sign in</Link></p></li>
+            <li><button className="get-started"><Link class="" to="signin" href="#">Sign in</Link></button></li>
         </NavMenu>
     )
 }

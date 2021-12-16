@@ -18,7 +18,7 @@ export const Nav = styled.nav`
     }
 
     .logo_header {
-        width:6.5rem;
+        width:12rem;
     }
 
     .logo {
