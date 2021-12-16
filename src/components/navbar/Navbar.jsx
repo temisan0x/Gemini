@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../../img/index.jpg'
+import Logo from '../../img/gemini.jpg'
 import Burger from './Burger'
 import {
     Nav,
