@@ -4,8 +4,9 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Hero from './components/navbar/Hero';
-import Featured from './components/navbar/Featured';
+import Hero from './components/Hero';
+import Featured from './components/Featured';
+import ContentContainer from './components/ContentContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>  
         <Hero />
         <Featured/>
+        <ContentContainer/>
       </div>
     </Router>
   );

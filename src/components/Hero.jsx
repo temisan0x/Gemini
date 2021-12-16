@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import video from '../../video/gemini-phone.mp4'
+import video from '../video/gemini-phone.mp4'
 
 const Container = styled.div`
     display: flex;

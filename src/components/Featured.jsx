@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import NewYorkTimes from '../../img/index.svg';
-import Bloomberg from '../../img/bloom.svg';
-import WallStreetJournal from '../../img/wall-street.svg';
-import Fortune from '../../img/fortune.svg';
-import Wired from '../../img/wired.svg'
+import NewYorkTimes from '../img/index.svg';
+import Bloomberg from '../img/bloom.svg';
+import WallStreetJournal from '../img/wall-street.svg';
+import Fortune from '../img/fortune.svg';
+import Wired from '../img/wired.svg'
 
 const features = [{
     id:1,
