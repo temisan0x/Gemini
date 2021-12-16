@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 import NewYorkTimes from '../img/index.svg';
 import Bloomberg from '../img/bloom.svg';
 import WallStreetJournal from '../img/wall-street.svg';
 import Fortune from '../img/fortune.svg';
-import Wired from '../img/wired.svg'
+import Wired from '../img/wired.svg';
+import Forbes from '../img/forbes.svg'
+
 
 const features = [{
     id:1,
@@ -20,19 +23,26 @@ const features = [{
 },
 {
     id:4,
-    photo:Fortune,
+    photo:Forbes,
 },
 {
     id:5,
-    photo:Wired
+    photo:Fortune,
+},
+{
+    id:6,
+    photo:Wired,
 }
 ]
 
 const FeaturedSection = styled.div `
     display: flex;
     justify-content:space-evenly;
+    align-items:center;
     padding-top: 40px;
-    padding-bottom: 42px;
+    padding-left: 60px;
+    padding-right:60px;
+
 
     @media screen and (max-width:900px) {
         flex-direction: column;
@@ -44,7 +54,7 @@ const FeaturedIn = styled.div`
     flex-direction: column;
 
     img {
-        width:200px;
+        width:150px;
     }
 
     @media screen and (max-width:900px) {
@@ -52,10 +62,30 @@ const FeaturedIn = styled.div`
             margin-top: 42px;
         }
 `
+const More = styled.div`
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    line-height: 20px;
 
+    margin: 4px 18px 8px 0px;
+    color: rgb(103, 104, 104);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+    @media screen and (max-width:900px){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+`
 
 function Featured() {
     return (
+        <>
         <FeaturedSection>
             {features.map((feature) => (
             <FeaturedIn>
@@ -63,6 +93,12 @@ function Featured() {
                 </FeaturedIn>
             ))}
         </FeaturedSection>
+        <More>
+            <Link to="/">    
+                View all coverage
+            </Link>
+        </More>
+        </>
     )
 }
 
