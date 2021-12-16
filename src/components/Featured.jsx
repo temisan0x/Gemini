@@ -67,13 +67,17 @@ const More = styled.div`
     justify-content: end;
     font-size: 14px;
     line-height: 20px;
-
+    padding-bottom: 40px;
     margin: 4px 18px 8px 0px;
-    color: rgb(103, 104, 104);
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0px;
+
+    a {
+        text-decoration:none;
+        color: rgb(103, 104, 104);
+    }
 
     @media screen and (max-width:900px){
     width: 100%;
@@ -94,7 +98,7 @@ function Featured() {
             ))}
         </FeaturedSection>
         <More>
-            <Link to="/">    
+            <Link to="/coverage">    
                 View all coverage
             </Link>
         </More>
