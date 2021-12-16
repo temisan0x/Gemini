@@ -5,6 +5,8 @@ import video from '../video/gemini-phone.mp4'
 const Container = styled.div`
     display: flex;
     padding-top: 45px;
+    padding-left: 45px;
+    padding-right:45px;
     justify-content: space-between;
 
     .text_container {
