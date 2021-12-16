@@ -17,6 +17,10 @@ export const Nav = styled.nav`
         color:inherit;
     }
 
+    .logo_header {
+        width:6.5rem;
+    }
+
     .logo {
         padding:15px 0;
     }

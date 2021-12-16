@@ -12,7 +12,7 @@ function Navbar() {
         <Nav>
             <div className="logo">
                 <Link to="/">
-                    <img src={Logo} alt="logo" width={130}/>
+                    <img src={Logo} alt="logo" className='logo_header'/>
                 </Link>
             </div>
             <Burger/>
