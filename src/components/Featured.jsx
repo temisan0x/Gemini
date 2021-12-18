@@ -57,7 +57,7 @@ const FeaturedIn = styled.div`
         width:150px;
     }
 
-    @media screen and (max-width:900px) {
+    @media screen and (:) {
             align-items:center;  
             margin-top: 42px;
         }

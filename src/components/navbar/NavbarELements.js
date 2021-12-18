@@ -33,7 +33,7 @@ export const NavMenu = styled.ul`
     font-weight: 400;
 
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:900px) {
         align-items:center;
         position:fixed;
         z-index:-1;
@@ -54,7 +54,7 @@ export const NavMenu = styled.ul`
         font-size: 16px;
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:900px) {
 
         p {
             display:block;
@@ -91,7 +91,7 @@ export const NavBar = styled.ul `
         color: rgb(1, 3, 4);
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:900px) {
         margin-left: 20px;
     }
 `
@@ -102,7 +102,7 @@ export const Bars = styled.div`
     z-index:100;
     display:none;
 
-    @media (max-width:768px){
+    @media (max-width:900px){
         display:flex;
         justify-content: space-around;
         flex-flow:column nowrap;
