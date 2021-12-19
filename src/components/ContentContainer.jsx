@@ -7,8 +7,8 @@ const Content = styled.div `
     padding-bottom: 60px;
     background-color: rgb(207, 205, 210);
     overflow: hidden;
-    padding-left:60px;
-    padding-right:60px;
+    padding-left:70px;
+    padding-right:70px;
 
     .container {
         flex-direction: row;
@@ -17,12 +17,11 @@ const Content = styled.div `
         width:100%;
         justify-content:space-between;
         align-items:center;
-
     }
 
     .waitList_text {
         line-height: 32px;
-        width:70%
+        width:60%
     }
 
     .waitList_text  h2 {
@@ -49,11 +48,11 @@ const Content = styled.div `
     .waitList_video {
         width:30%;
         overflow: hidden;
-        margin:0 auto;
+    
     }
 
     .wvideo {
-        width: 220px;
+        width: 100%;
     }
 
 
@@ -61,9 +60,7 @@ const Content = styled.div `
     @media screen and (max-width: 768px){
         .container {
             flex-direction: column;
-            width:100%
-            padding-right:30px;
-            padding-left:30px;
+            width:100%    
         }
 
         .waitList_video {
