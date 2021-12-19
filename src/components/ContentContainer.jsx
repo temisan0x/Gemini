@@ -65,6 +65,12 @@ const Content = styled.div `
 
         .waitList_video {
             width: 100%;
+            width: 30%;
+            overflow: hidden;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-content: center;
         }
 
         .waitList_text {
