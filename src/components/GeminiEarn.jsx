@@ -6,6 +6,11 @@ import photo from './../img/dot.svg'
 const Section = styled.div `
     display: flex;
     width:100%;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-right:60px;
+    justify-content: space-between;
+    
     
     .earnText {
         width:50%;
@@ -21,7 +26,8 @@ const Section = styled.div `
     }
 
     .eImg {
-        width:300px;
+        width:40%;
+        
     }
 
 `
