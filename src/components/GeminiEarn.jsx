@@ -1,22 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
-import Trio from './../video/reveal-trio.mp4'
+import Trio from './../img/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png'
 
 const Section = styled.div `
-
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    
+    
 `
 
 function GeminiEarn() {
     return (
         <Section>
-            {/* <div className="earnText">
+            <div className="earnText">
 
             </div>
-            <div className="waitList_video">
-                    <video preload="auto" autoPlay={true} className="wvideo">
-                        <source src={Trio} type="video/mp4" />
-                    </video>
-                </div> */}
+            <div className="earnText_image">
+                <img className="eImg" src={Trio} alt="" />
+            </div>
         </Section>
     )
 }

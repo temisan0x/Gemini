@@ -114,8 +114,6 @@ const Content = styled.div `
             padding-left: 25px;
             padding-top: 1px;
         }
-
-        
     }
 
     .waitList_btn {
