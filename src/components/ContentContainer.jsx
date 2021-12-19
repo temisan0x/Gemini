@@ -3,16 +3,22 @@ import styled from 'styled-components';
 import video2 from '../video/reveal-trio.mp4'
 
 const Content = styled.div `
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: rgb(207, 205, 210);
     overflow: hidden;
-    flex-direction: row;
+    padding-left:60px;
+    padding-right:60px;
+
+    .container {
+        flex-direction: row;
         line-height:20px;
         display: flex;
         width:100%;
         justify-content:space-between;
         align-items:center;
+
+    }
 
     .waitList_text {
         line-height: 32px;
@@ -24,6 +30,7 @@ const Content = styled.div `
         color: rgb(1, 3, 4);
         font-weight: 600;
         font-size: 40px;
+        
     }
 
     .waitList_text ul li p {
@@ -40,13 +47,12 @@ const Content = styled.div `
 
     .waitList_video {
         width:30%;
+        overflow: hidden;
+        margin:0 auto;
     }
 
-    .video {
-        margin: -40px -100px 0px 0px;
-        width: 100%;
-        height:50vh
-        display: flex;
+    .wvideo {
+        width: 300px;
     }
 
 
@@ -133,7 +139,7 @@ function ContentContainer() {
                     </button>
                 </div>
                 <div className="waitList_video">
-                    <video preload="auto" autoPlay={true}>
+                    <video preload="auto" autoPlay={true} className="wvideo">
                         <source src={video2} type="video/mp4" />
                     </video>
                 </div>
