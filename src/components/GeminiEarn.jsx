@@ -7,6 +7,17 @@ const Section = styled.div `
     flex-direction: row;
     width:100%;
     
+    .earnText {
+        width:50%;
+    }
+
+    .earn_image {
+        width:50%;
+    }
+
+    .eImg {
+        width:100%;
+    }
     
 `
 
@@ -16,7 +27,7 @@ function GeminiEarn() {
             <div className="earnText">
 
             </div>
-            <div className="earnText_image">
+            <div className="earn_image">
                 <img className="eImg" src={Trio} alt="" />
             </div>
         </Section>
