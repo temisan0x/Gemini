@@ -16,8 +16,10 @@ const Section = styled.div `
         width:50%;
 
 
-        p {
-            line-height:20px;
+        h2 {
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: 0px;
         }
     }
 
@@ -27,7 +29,7 @@ const Section = styled.div `
 
     .eImg {
         width:40%;
-        
+
     }
 
 `
@@ -39,6 +41,7 @@ function GeminiEarn() {
                 <picture>
                     <img src={photo} alt="logo" />
                 </picture>
+                <h2>Earn Up to 8.05% APY</h2>
             </div>
             <div className="earn_image">
                 <img className="eImg" src={Trio} alt="earn_image" />
