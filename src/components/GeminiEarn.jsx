@@ -71,6 +71,17 @@ const Section = styled.div `
     }
 
     @media screen and (max-width:768px){
+        .earn {
+            flex-direction: column;
+            width:100%;
+            padding-top: 45px;
+            padding-left: 60px;
+            padding-right:60px;
+            justify-content: space-between;
+            position:relative;
+            
+        }
+
         .earnText {
             width:100%;
             padding-top: 85px;
@@ -89,7 +100,19 @@ const Section = styled.div `
                 line-height: 34px;
                 margin-bottom: 20px;
             }
+            
+            .earn_image {
+                width:50%;
+                margin-left:100px;
+            }
+        
         }
+
+        .earn_image {
+            width:100%;
+            margin-left:100px;
+        }
+    
     
     }
 `
@@ -98,7 +121,7 @@ function GeminiEarn() {
     return (
         <Section className="earn">
             <div className="earnText">
-                <picture>
+                <picture className="picture">
                     <img src={photo} alt="logo" />
                 </picture>
                 <h2>Earn Up to 8.05% APY</h2>
