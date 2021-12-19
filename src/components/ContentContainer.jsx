@@ -110,11 +110,9 @@ const Content = styled.div `
 
     @media screen and (max-width:768px){
         .span {
-            margin-right:200px;
-            padding-left: 1.3px;
-            padding-top:15px;
-            padding-bottom: 15px;
-            padding-right:0px;
+            margin-right: 150px;
+            padding-left: 25px;
+            padding-top: 1px;
         }
 
         
