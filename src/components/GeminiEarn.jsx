@@ -1,14 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import Trio from './../img/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png'
+import photo from './../img/dot.svg'
 
 const Section = styled.div `
     display: flex;
-    flex-direction: row;
     width:100%;
     
     .earnText {
         width:50%;
+
+
+        p {
+            line-height:20px;
+        }
     }
 
     .earn_image {
@@ -16,19 +21,21 @@ const Section = styled.div `
     }
 
     .eImg {
-        width:100%;
+        width:300px;
     }
-    
+
 `
 
 function GeminiEarn() {
     return (
         <Section>
             <div className="earnText">
-
+                <picture>
+                    <img src={photo} alt="logo" />
+                </picture>
             </div>
             <div className="earn_image">
-                <img className="eImg" src={Trio} alt="" />
+                <img className="eImg" src={Trio} alt="earn_image" />
             </div>
         </Section>
     )
