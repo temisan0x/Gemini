@@ -36,7 +36,7 @@ const Content = styled.div `
     .waitList_text ul li p {
         letter-spacing: 1px;
         font-size:16px;
-
+        font-weight:400;
     }
 
     .waitList_text ul li {
@@ -63,7 +63,7 @@ const Content = styled.div `
             width:100%;
             padding-left:30px;
             padding-right:30px;
-            
+
         
         }
 
@@ -82,6 +82,17 @@ const Content = styled.div `
         .waitList_text {
             width:100%;
         }
+
+        .waitList_text  h2 {
+            margin: 0px 0px 16px;
+            color: rgb(1, 3, 4);
+            font-weight: 600;
+            font-size: 40px;
+            
+            font-size: 24px;
+            line-height: 32px;
+        }
+    
 
         .wvideo {
             width:100%;
@@ -105,6 +116,8 @@ const Content = styled.div `
             padding-bottom: 15px;
             padding-right:0px;
         }
+
+        
     }
 
     .waitList_btn {
