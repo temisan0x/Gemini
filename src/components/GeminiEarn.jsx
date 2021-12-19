@@ -5,6 +5,8 @@ import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
 const Section = styled.div `
+
+.earn{
     display: flex;
     width:100%;
     padding-top: 45px;
@@ -69,13 +71,32 @@ const Section = styled.div `
     }
 
     @media screen and (max-width:768px){
-        
+        .earnText {
+            width:100%;
+            padding-top: 85px;
+            margin:0 auto;
+    
+            h2 {
+                font-size: 32px;
+                line-height: 36px;
+                letter-spacing: 0px;
+                margin-top:25px;
+                font-weight:600;
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 34px;
+                margin-bottom: 20px;
+            }
+        }
+    
     }
 `
 
 function GeminiEarn() {
     return (
-        <Section>
+        <Section className="earn">
             <div className="earnText">
                 <picture>
                     <img src={photo} alt="logo" />
