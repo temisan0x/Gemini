@@ -7,8 +7,6 @@ const Content = styled.div `
     padding-bottom: 60px;
     background-color: rgb(207, 205, 210);
     overflow: hidden;
-    padding-left:70px;
-    padding-right:70px;
 
     .container {
         flex-direction: row;
@@ -17,6 +15,8 @@ const Content = styled.div `
         width:100%;
         justify-content:space-between;
         align-items:center;
+        padding-left:70px;
+        padding-right:70px;
     }
 
     .waitList_text {
@@ -60,7 +60,11 @@ const Content = styled.div `
     @media screen and (max-width: 768px){
         .container {
             flex-direction: column;
-            width:100%    
+            width:100%;
+            padding-left:30px;
+            padding-right:30px;
+            
+        
         }
 
         .waitList_video {
