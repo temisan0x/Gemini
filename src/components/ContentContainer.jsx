@@ -30,6 +30,7 @@ const Content = styled.div `
         color: rgb(1, 3, 4);
         font-weight: 600;
         font-size: 40px;
+        line-height:35px;
         
     }
 
@@ -52,28 +53,36 @@ const Content = styled.div `
     }
 
     .wvideo {
-        width: 300px;
+        width: 220px;
     }
 
 
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px){
         .container {
             flex-direction: column;
             width:100%
+            padding-right:30px;
+            padding-left:30px;
         }
 
         .waitList_video {
             width: 100%;
-            width: 30%;
             overflow: hidden;
             margin: 0 auto;
             display: flex;
             justify-content: center;
             align-content: center;
+            object-fit:contain;
+            height:50vh;
+            padding-top:40px;
         }
 
         .waitList_text {
+            width:100%;
+        }
+
+        .wvideo {
             width:100%;
         }
     }
@@ -89,7 +98,7 @@ const Content = styled.div `
 
     @media screen and (max-width:768px){
         .span {
-            margin-right:370px;
+            margin-right:200px;
             padding-left: 1.3px;
             padding-top:15px;
             padding-bottom: 15px;
@@ -120,6 +129,7 @@ const Content = styled.div `
 const Sup = styled.sup `
     font-size: 55%;
     top: -0.6em;
+    position:relative;
 `
 
 function ContentContainer() {
