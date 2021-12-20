@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import Featured from './components/Featured';
 import ContentContainer from './components/ContentContainer';
 import GeminiEarn from './components/GeminiEarn';
+import Nifty from './components/Nifty';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Featured/>
         <ContentContainer/>
         <GeminiEarn/>
+        <Nifty/>
       </div>
     </Router>
   );
