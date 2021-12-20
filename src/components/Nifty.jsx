@@ -8,16 +8,27 @@ const Content = styled.div`
     position:relative;
     bottom:280px;
     height:50vh;
+    
+    .nifty {
+        display:flex;
+        width:100%;
+    }
+
+    .nImg {
+        width:211px;
+    }
 `
 function Nifty() {
     return (
         <Content>
-            <div className="nifty_text">
-                <h3>Buy and sell NFTs on Nifty Gateway</h3>
-                <p>A non-fungible token (NFT) is digital art on the blockchain—the latest trend in crypto. Nifty Gateway is owned by Gemini, so you can expect the same industry-leading crypto security for your NFTs</p>
-            </div>  
-            <div className="nifty_img">
-                <img src={nifty} alt="nifty-logo" />
+            <div className="nifty">
+                <div className="nifty_text">
+                    <h3>Buy and sell NFTs on Nifty Gateway</h3>
+                    <p>A non-fungible token (NFT) is digital art on the blockchain—the latest trend in crypto. Nifty Gateway is owned by Gemini, so you can expect the same industry-leading crypto security for your NFTs</p>
+                </div>  
+                <div className="nifty_img">
+                    <img src={nifty} alt="nifty-logo" className='nImg'/>
+                </div>
             </div>
         </Content>
     )
