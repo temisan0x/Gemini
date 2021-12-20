@@ -4,17 +4,22 @@ import Trio from './../img/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.p
 import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
-const Section = styled.div `
+const Section = styled.div `       
+    .earn_image {
+        width:50%;
+        margin-left:100px;
+    }
 
-.earn{
-    display: flex;
-    width:100%;
-    padding-top: 45px;
-    padding-left: 60px;
-    padding-right:60px;
-    justify-content: space-between;
-    position:relative;
-    
+    #earn {
+        display: flex !important;
+        width:100%;
+        padding-top: 45px;
+        padding-left: 60px;
+        padding-right:60px;
+        justify-content: space-between;
+        position:relative;
+        
+    }
     
     .earnText {
         width:50%;
@@ -41,7 +46,7 @@ const Section = styled.div `
     }
 
     .eImg {
-        width:300px;
+        width:200px;
     }
 
     a {
@@ -71,8 +76,8 @@ const Section = styled.div `
     }
 
     @media screen and (max-width:768px){
-        .earn {
-            flex-direction: column;
+        #earn {
+            flex-direction: column !important;
             width:100%;
             padding-top: 45px;
             padding-left: 60px;
@@ -100,40 +105,41 @@ const Section = styled.div `
                 line-height: 34px;
                 margin-bottom: 20px;
             }
-            
-            .earn_image {
-                width:50%;
-                margin-left:100px;
-            }
-        
         }
 
+
+            
         .earn_image {
             width:100%;
             margin-left:100px;
         }
-    
+
+        .buQraH {
+            flex-direction: column;
+        }
     
     }
 `
 
 function GeminiEarn() {
     return (
-        <Section className="earn">
-            <div className="earnText">
-                <picture className="picture">
-                    <img src={photo} alt="logo" />
-                </picture>
-                <h2>Earn Up to 8.05% APY</h2>
-                <p>More than 100x the average national interest rate</p>
-                <Link to="/more_information" className="information">
-                <button className="earn_more">
-                    Learn More
-                </button>
-                </Link>
-            </div>
-            <div className="earn_image">
-                <img className="eImg" src={Trio} alt="earn_image" />
+        <Section>
+            <div id="#earn">
+                <div className="earnText">
+                    <picture className="picture">
+                        <img src={photo} alt="logo" />
+                    </picture>
+                    <h2>Earn Up to 8.05% APY</h2>
+                    <p>More than 100x the average national interest rate</p>
+                    <Link to="/more_information" className="information">
+                    <button className="earn_more">
+                        Learn More
+                    </button>
+                    </Link>
+                </div>
+                <div className="earn_image">
+                    <img className="eImg" src={Trio} alt="earn_image" />
+                </div>
             </div>
         </Section>
     )
