@@ -8,14 +8,53 @@ const Content = styled.div`
     position:relative;
     bottom:280px;
     height:50vh;
+    padding-left: 60px;
+    padding-right:60px;
+    
     
     .nifty {
         display:flex;
         width:100%;
     }
 
+    .nifty_text {
+        line-height:24px;
+        padding-top: 81px;
+        display:flex;
+        flex-direction: column;
+        width:75%;
+        padding-right: 50px;
+
+        h2 {
+            font-weight: 600;
+            color:#fff;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            color:#fff;
+        }
+    }
+
+    .nifty_img {
+        width:20%; 
+        margin-top: 81px;
+    }
+
     .nImg {
         width:211px;
+    }
+
+    @media screen and (max-width:768px){
+        .nifty {
+            flex-direction: column;
+            width:100%;
+        }
+
+        
     }
 `
 function Nifty() {
@@ -23,7 +62,7 @@ function Nifty() {
         <Content>
             <div className="nifty">
                 <div className="nifty_text">
-                    <h3>Buy and sell NFTs on Nifty Gateway</h3>
+                    <h2>Buy and sell NFTs on Nifty Gateway</h2>
                     <p>A non-fungible token (NFT) is digital art on the blockchain—the latest trend in crypto. Nifty Gateway is owned by Gemini, so you can expect the same industry-leading crypto security for your NFTs</p>
                 </div>  
                 <div className="nifty_img">
