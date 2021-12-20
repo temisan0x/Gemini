@@ -22,7 +22,7 @@ const Section = styled.div `
 
     .earnText {
         width:50%;
-        padding-top: 85px;
+        margin-bottom: 250px;
 
         h2 {
             font-size: 32px;
@@ -73,7 +73,6 @@ const Section = styled.div `
         .containers {
             flex-direction: column;
             width:100%;
-           
             align-items:center;
             justify-content:center;
         }
@@ -85,7 +84,6 @@ const Section = styled.div `
         .earnText {
             width:100%;
             padding-top: 85px;
-            margin: 0 auto;
             align-items: center;
             text-align: center;
         }
@@ -104,6 +102,13 @@ const Section = styled.div `
                 line-height: 34px;
                 margin-bottom: 20px;
             }
+
+            .earn_image {
+                width:100%;
+                margin-top:50px;
+                display:flex;
+                justify-content: center;
+            }
         }
 
 
@@ -112,11 +117,11 @@ const Section = styled.div `
             width:100%;
             margin-top:50px;
             display:flex;
-            justify-content: center;
+            justify-content: end;
         }
 
         .eImg {
-            width:50%;
+            width:300px;
         }
     
 `

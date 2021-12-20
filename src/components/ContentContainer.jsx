@@ -169,8 +169,6 @@ function ContentContainer() {
                         <source src={video2} type="video/mp4" />
                     </video>
                 </div>
-            
-
                 </div>
         </Content>
     )

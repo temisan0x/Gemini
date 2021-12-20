@@ -67,7 +67,6 @@ const More = styled.div`
     justify-content: end;
     font-size: 14px;
     padding-bottom: 40px;
-    padding-right:75px;
     padding-top: 10px;
     margin: 4px 18px 8px 0px;
     font-weight: 400;
