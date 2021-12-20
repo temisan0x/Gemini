@@ -4,23 +4,22 @@ import Trio from './../img/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.p
 import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
-const Section = styled.div `       
-    .earn_image {
-        width:50%;
-        margin-left:100px;
+const Section = styled.div `    
+    .containers {
+    
+        line-height:20px;
+        display: flex;
+        width:100%;
+        justify-content:space-between;
+        align-items:center;
+        padding-left:70px;
+        padding-right:70px;
     }
 
-    #earn {
-        display: flex !important;
-        width:100%;
-        padding-top: 45px;
-        padding-left: 60px;
-        padding-right:60px;
-        justify-content: space-between;
-        position:relative;
-        
+    .earn_image {
+        width:50%;
     }
-    
+
     .earnText {
         width:50%;
         padding-top: 85px;
@@ -38,11 +37,6 @@ const Section = styled.div `
             line-height: 34px;
             margin-bottom: 20px;
         }
-    }
-
-    .earn_image {
-        width:50%;
-        margin-left:100px;
     }
 
     .eImg {
@@ -76,21 +70,26 @@ const Section = styled.div `
     }
 
     @media screen and (max-width:768px){
-        #earn {
-            flex-direction: column !important;
+        .containers {
+            flex-direction: column;
             width:100%;
-            padding-top: 45px;
-            padding-left: 60px;
-            padding-right:60px;
-            justify-content: space-between;
-            position:relative;
-            
+           
+            align-items:center;
+            justify-content:center;
+        }
+
+        .earn_more {
+            margin:0px auto;
         }
 
         .earnText {
             width:100%;
             padding-top: 85px;
-            margin:0 auto;
+            margin: 0 auto;
+            align-items: center;
+            text-align: center;
+        }
+            
     
             h2 {
                 font-size: 32px;
@@ -111,20 +110,23 @@ const Section = styled.div `
             
         .earn_image {
             width:100%;
-            margin-left:100px;
+            margin-top:50px;
+            display:flex;
+            justify-content: center;
         }
 
-        .buQraH {
-            flex-direction: column;
+        .eImg {
+            width:50%;
         }
     
-    }
 `
+
+
 
 function GeminiEarn() {
     return (
         <Section>
-            <div id="#earn">
+            <div className="containers">
                 <div className="earnText">
                     <picture className="picture">
                         <img src={photo} alt="logo" />
