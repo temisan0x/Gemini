@@ -22,7 +22,7 @@ const Section = styled.div `
 
     .earnText {
         width:50%;
-        margin-bottom: 250px;
+      
 
         h2 {
             font-size: 32px;
