@@ -16,11 +16,22 @@ const  Content = styled.div `
     .crypto_flex {
         display: flex;
         line-height:44px;
+        width: 100%;
+        padding-left:5px;
+        padding-right:5px;
+        justify-content:space-between;
     }
 
     .crypto_row {
-
+        width:50%;
+        flex-grow:0;
     }
+
+    .crypto_row2 {
+        width:50%;
+        flex-grow:0;
+    }
+
 
     .bold {
         font-weight: 900;
@@ -43,7 +54,17 @@ function ArticleContent() {
                     <p className="bold">Safety, security and compliance</p>
                     <p className="normal">Gemini is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.</p>
                 </div>
-                <div className="cryto_row">
+                <div className="crypto_row2">
+                    <p className="bold">SOC Certifications</p>
+                    <div className="normal">Gemini is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.</div>
+                </div>
+            </div>
+            <div className="crypto_flex">
+                <div className="crypto_row">
+                    <p className="bold">Safety, security and compliance</p>
+                    <p className="normal">Gemini is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.</p>
+                </div>
+                <div className="crypto_row2">
                     <p className="bold">SOC Certifications</p>
                     <div className="normal">Gemini is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.</div>
                 </div>
