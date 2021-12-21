@@ -14,9 +14,10 @@ const Content = styled.div `
         display: flex;
         width:100%;
         justify-content:space-between;
-        align-items:center;
-        padding-left:70px;
-        padding-right:70px;
+        align-items:center; 
+        padding-top: 45px;
+        padding-left: 200px;
+        padding-right:200px;
     }
 
     .waitList_text {

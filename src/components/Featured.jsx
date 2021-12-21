@@ -38,10 +38,10 @@ const features = [{
 const FeaturedSection = styled.div `
     display: flex;
     justify-content:space-evenly;
-    align-items:center;
-    padding-top: 40px;
-    padding-left: 60px;
-    padding-right:60px;
+    align-items:center; 
+    padding-top: 45px;
+    padding-left: 200px;
+    padding-right:200px;
 
 
     @media screen and (max-width:900px) {

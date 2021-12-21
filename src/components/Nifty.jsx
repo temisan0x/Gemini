@@ -8,9 +8,9 @@ const Content = styled.div`
     background:url(${background});
     position:relative;
     bottom:280px;
-   
-    padding-left: 60px;
-    padding-right:60px;
+    padding-top: 45px;
+    padding-left: 200px;
+    padding-right:200px;
     
     
     .nifty {
@@ -78,6 +78,7 @@ const Content = styled.div`
 
     .a_link {
         padding-top:30px;
+        margin-bottom:50px;
     }
 
     @media screen and (max-width:768px){
