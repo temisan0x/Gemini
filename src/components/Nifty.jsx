@@ -8,7 +8,7 @@ const Content = styled.div`
     background:url(${background});
     position:relative;
     bottom:280px;
-    height:60vh;
+   
     padding-left: 60px;
     padding-right:60px;
     
@@ -103,6 +103,8 @@ const Content = styled.div`
             width:100%;
             text-align:center;
             padding-right:0%;
+            position:relative;
+            top:-40px;
     }
 `
 function Nifty() {
