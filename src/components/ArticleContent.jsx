@@ -22,6 +22,7 @@ const  Content = styled.div `
         justify-content:space-between;
     }
 
+
     .crypto_row {
         width:50%;
         flex-grow:0;
@@ -32,6 +33,22 @@ const  Content = styled.div `
         flex-grow:0;
     }
 
+    @media screen and (max-width:768px) {
+        .crypto_flex {
+            flex-direction: column;
+            padding-left:0px;
+            padding-right:0px;
+            width: 100%;
+        }
+        .crypto_row {
+            width:100%;
+        }
+    
+        .crypto_row2 {
+            width:100%;
+        }
+    
+    }
 
     .bold {
         font-weight: 900;
