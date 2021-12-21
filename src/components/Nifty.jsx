@@ -94,6 +94,15 @@ const Content = styled.div`
         .nImg {
             width:92px;
         }
+
+        .nifty_text {
+            line-height:24px;
+            padding-top: 81px;
+            display:flex;
+            flex-direction: column;
+            width:100%;
+            text-align:center;
+            padding-right:0%;
     }
 `
 function Nifty() {

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 const Section = styled.div `    
     .containers {
-    
         line-height:20px;
         display: flex;
         width:100%;
@@ -16,13 +15,11 @@ const Section = styled.div `
         padding-right:70px;
     }
 
-    .earn_image {
-        width:50%;
-    }
+    
 
     .earnText {
-        width:50%;
-      
+        width:50%; 
+        margin-bottom: 200px;
 
         h2 {
             font-size: 32px;
@@ -37,6 +34,14 @@ const Section = styled.div `
             line-height: 34px;
             margin-bottom: 20px;
         }
+    }
+
+    
+    .earn_image {
+        width:100%;
+        margin-top:50px;
+        display:flex;
+        justify-content: end;
     }
 
     .eImg {
@@ -84,6 +89,7 @@ const Section = styled.div `
         .earnText {
             width:100%;
             padding-top: 85px;
+            margin-bottom: 0px;
             align-items: center;
             text-align: center;
         }
@@ -113,12 +119,6 @@ const Section = styled.div `
 
 
             
-        .earn_image {
-            width:100%;
-            margin-top:50px;
-            display:flex;
-            justify-content: end;
-        }
 
         .eImg {
             width:300px;
