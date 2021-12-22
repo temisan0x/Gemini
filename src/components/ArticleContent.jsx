@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const  Content = styled.div ` 
     position:relative;
@@ -10,7 +11,8 @@ const  Content = styled.div `
     h2 {
         font-size:36px;
         font-weight:600;
-        line-height: 44px
+        line-height: 44px;
+        margin-top:20px;
     }
 
     .crypto_flex {
@@ -20,6 +22,7 @@ const  Content = styled.div `
         padding-left:5px;
         padding-right:5px;
         justify-content:space-between;
+        flex-direction:1.6;
     }
 
 
@@ -31,6 +34,18 @@ const  Content = styled.div `
     .crypto_row2 {
         width:50%;
         flex-grow:0;
+    }
+
+
+    .bold {
+        font-weight: 900;
+        margin-top:10px;
+    }
+
+    .normal {
+        font-weight: 500;
+        font-size: 16px;
+        padding-right:50px;
     }
 
     @media screen and (max-width:768px) {
@@ -55,18 +70,10 @@ const  Content = styled.div `
             flex-direction:column;
             width:100%;
         }
-    
-    }
 
-    .bold {
-        font-weight: 900;
-        margin-top:10px;
-    }
-
-    .normal {
-        font-weight: 500;
-        font-size: 16px;
-        padding-right:50px;
+        .normal {
+            padding-right:0px;
+        }
     }
 
 `
