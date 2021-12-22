@@ -48,6 +48,10 @@ const  Content = styled.div `
         padding-right:50px;
     }
 
+    a {
+        color:inherit;
+    }
+
     @media screen and (max-width:768px) {
 
         .crypto_flex {
@@ -86,21 +90,22 @@ function ArticleContent() {
             <div className="crypto_flex">
                 <div className="crypto_row">
                     <p className="bold">Safety, security and compliance</p>
-                    <p className="normal">Gemini is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.</p>
+                    <p className="normal">Gemini is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. 
+                    <Link to="/learn-more"> Learn more </Link>about our commitment to security.</p>
                 </div>
                 <div className="crypto_row2">
                     <p className="bold">SOC Certifications</p>
-                    <div className="normal">Gemini is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.</div>
+                    <div className="normal">Gemini is <Link to="/SOC1">SOC 1 Type 2</Link> and <Link to="/SOC2">SOC 2 Type 2</Link> compliant. We are the world's first cryptocurrency exchange and custodian to complete these exams.</div>
                 </div>
             </div>
             <div className="crypto_flex">
                 <div className="crypto_row">
-                    <p className="bold">Safety, security and compliance</p>
-                    <p className="normal">Gemini is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.</p>
+                    <p className="bold">Hardware security keys</p>
+                    <p className="normal">With Gemini you can secure your account with a <Link to="/hardware">hardware security key</Link> via WebAuthn.</p>
                 </div>
                 <div className="crypto_row2">
-                    <p className="bold">SOC Certifications</p>
-                    <div className="normal">Gemini is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.</div>
+                    <p className="bold">Insurance coverage</p>
+                    <div className="normal">All crypto held online in our exchange wallet is insured and we use best-in-industry <Link to="/storage">cold storage coverage</Link> with leading insurance providers.</div>
                 </div>
             </div>
         </Content>
