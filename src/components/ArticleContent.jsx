@@ -15,7 +15,7 @@ const  Content = styled.div `
 
     .crypto_flex {
         display: flex;
-        line-height:44px;
+        line-height:25px;
         width: 100%;
         padding-left:5px;
         padding-right:5px;
@@ -45,7 +45,8 @@ const  Content = styled.div `
         .crypto_row {
             display:flex;
             width:100%;
-            flex-direction:row;
+            flex-direction:column;
+            padding-right:20px;
         }
     
         .crypto_row2 {
@@ -65,6 +66,7 @@ const  Content = styled.div `
     .normal {
         font-weight: 500;
         font-size: 16px;
+        padding-right:50px;
     }
 
 `
@@ -73,6 +75,7 @@ function ArticleContent() {
     return (
         <Content>
             <h2>Industry-leading security from day one</h2>
+            <br />
             <div className="crypto_flex">
                 <div className="crypto_row">
                     <p className="bold">Safety, security and compliance</p>
