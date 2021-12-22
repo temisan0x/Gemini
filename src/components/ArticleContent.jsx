@@ -13,11 +13,12 @@ const  Content = styled.div `
         font-weight:600;
         line-height: 44px;
         margin-top:20px;
+        margin-bottom:15px
     }
 
     .crypto_flex {
         display: flex;
-        line-height:25px;
+        line-height:30px;
         width: 100%;
         padding-left:5px;
         padding-right:5px;
