@@ -34,17 +34,24 @@ const  Content = styled.div `
     }
 
     @media screen and (max-width:768px) {
+
         .crypto_flex {
+            display:flex;
             flex-direction: column;
             padding-left:0px;
             padding-right:0px;
-            width: 100%;
+        
         }
         .crypto_row {
+            display:flex;
             width:100%;
+            flex-direction:row;
         }
     
         .crypto_row2 {
+            width:100%;
+            display:flex;
+            flex-direction:column;
             width:100%;
         }
     
