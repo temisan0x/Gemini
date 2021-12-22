@@ -9,8 +9,8 @@ const Content = styled.div`
     position:relative;
     bottom:280px;
     padding-top: 45px;
-    padding-left: 200px;
-    padding-right:200px;
+    padding-left: 70px;
+    padding-right:70px;
     
     
     .nifty {

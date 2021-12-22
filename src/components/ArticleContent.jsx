@@ -45,7 +45,7 @@ const  Content = styled.div `
     .normal {
         font-weight: 500;
         font-size: 16px;
-        padding-right:50px;
+        padding-right:20px;
     }
 
     a {
