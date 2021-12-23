@@ -85,7 +85,7 @@ function LayoutContainer() {
             <div className="layout_flex">
                 <h2>A simple, secure way to buy and sell cryptocurrency</h2>
                 <p>Trade bitcoin and other cryptos in 3 minutes.</p>
-                <Link>
+                <Link to="https://github.com/">
                     <button className="layout_btn">
                         Get started
                     </button>
