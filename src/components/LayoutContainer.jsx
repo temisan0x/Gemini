@@ -24,6 +24,9 @@ const Layout = styled.div `
         color:#ffffff;
         font-weight:400px;
         font-size: 18px;
+        line-height:1.5;
+        text-align:center;
+        margin-bottom:20px;
     }
 
     h2 {
@@ -32,6 +35,7 @@ const Layout = styled.div `
         line-height: 30px;
         font-weight: 600;
         text-align:center;
+        margin-bottom:10px;
     }
 
     @media screen and (max-width:768px) {
@@ -40,14 +44,13 @@ const Layout = styled.div `
         }
 
         p {
-            font-size: 18px
+            font-size: 18px;
         }
     }
 
     .layout_btn {
         visibility: visible;
         padding: 0px 24px;
-        margin: 0px;
         cursor: pointer;
         min-width: 160px;
         height: 48px;
@@ -62,6 +65,8 @@ const Layout = styled.div `
         border: 2px solid rgb(38, 221, 249);
         transition: border-color 300ms ease-in 0s, color 300ms ease-in 0s, background-color 300ms ease-in 0s;
         white-space: nowrap;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .layout_btn:hover{
