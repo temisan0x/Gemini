@@ -13,6 +13,8 @@ const Subscribe = styled.div`
         justify-content:space-around;
         width: 100%;        
         align-items:center;
+        padding-right: 100px;
+        padding-left: 100px;
     }
 
     .input_flex {
@@ -29,8 +31,7 @@ const Subscribe = styled.div`
 
     p {
         font-weight:600;
-        font-size: 1.4rem;
-        padding-left: 1rem;
+        font-size: 16px;
         margin-left:50px;
     }
 
@@ -65,13 +66,20 @@ const Subscribe = styled.div`
 
         .input_flex {
             flex-direction: column;
-            width: 70%;
+            width: 90%;
             overflow: visible;
             border: none;
+            height:30px;
         }
 
         p {
             margin-bottom:20px;
+            font-size: 16px;
+            color:rgb(1,3,4);
+            align-items: flex-start;
+            display: flex;
+            padding-left: 0rem;
+            margin-left: 0px;
         }
 
         #email, .sub_btn {
@@ -109,7 +117,7 @@ function SubscribeText() {
                         Subscribe
                     </button>
                 </div>
-            </div>
+            </div> 
         </Subscribe>
     )
 }
