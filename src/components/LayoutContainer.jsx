@@ -8,6 +8,9 @@ const Layout = styled.div `
     padding-right:70px;
     padding-top: 70px;
     padding-bottom: 56px;
+    position: relative;
+    top: -80px;
+
 
     .layout_flex {
         display: flex;
@@ -20,6 +23,7 @@ const Layout = styled.div `
     p {
         color:#ffffff;
         font-weight:400px;
+        font-size: 24px
     }
 
     h2 {
@@ -27,6 +31,16 @@ const Layout = styled.div `
         font-size: 36px;
         line-height: 44px;
         font-weight: 600;
+    }
+
+    @media screen and (max-width:768px) {
+        h2 {
+            font-size: 24px
+        }
+
+        p {
+            font-size: 18px
+        }
     }
 
     .layout_btn {
@@ -38,6 +52,8 @@ const Layout = styled.div `
         background-color: rgb(124, 234, 251);
         color: rgb(1, 3, 4);
     }
+
+
 `
 
 
