@@ -15,7 +15,7 @@ const Layout = styled.div `
     .layout_flex {
         display: flex;
         flex-direction: column;
-        line-height:5;
+        line-height:4;
         align-items:center;
         justify-content:center;
     }
@@ -23,19 +23,20 @@ const Layout = styled.div `
     p {
         color:#ffffff;
         font-weight:400px;
-        font-size: 24px
+        font-size: 18px;
     }
 
     h2 {
         color:#ffffff;
         font-size: 36px;
-        line-height: 44px;
+        line-height: 30px;
         font-weight: 600;
+        text-align:center;
     }
 
     @media screen and (max-width:768px) {
         h2 {
-            font-size: 24px
+            font-size: 24px;
         }
 
         p {
@@ -44,7 +45,23 @@ const Layout = styled.div `
     }
 
     .layout_btn {
-
+        visibility: visible;
+        padding: 0px 24px;
+        margin: 0px;
+        cursor: pointer;
+        min-width: 160px;
+        height: 48px;
+        border-radius: 16px;
+        background-color: rgb(38, 221, 249);
+        color: rgb(1, 3, 4);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0.33px;
+        text-align: center;
+        border: 2px solid rgb(38, 221, 249);
+        transition: border-color 300ms ease-in 0s, color 300ms ease-in 0s, background-color 300ms ease-in 0s;
+        white-space: nowrap;
     }
 
     .layout_btn:hover{
