@@ -12,6 +12,7 @@ import Nifty from './components/Nifty';
 import ArticleContent from './components/ArticleContent';
 import ProNovice from './components/ProNovice';
 import LayoutContainer from './components/LayoutContainer';
+import SubscribeText from './components/SubscribeText';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <ArticleContent/>
         <ProNovice/>
         <LayoutContainer/>
+        <SubscribeText/>
       </div>
     </Router>
   );

@@ -32,7 +32,7 @@ const Layout = styled.div `
     h2 {
         color:#ffffff;
         font-size: 36px;
-        line-height: 30px;
+        line-height: 40px;
         font-weight: 600;
         text-align:center;
         margin-bottom:10px;
