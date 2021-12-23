@@ -24,10 +24,13 @@ const Subscribe = styled.div`
         border-radius: 20px;
         border: 1px solid black;
         overflow: hidden;
+        margin-right:30px;
     }
 
     p {
         font-weight:600;
+        font-size: 1.4rem;
+        padding-left: 1rem;
         margin-left:50px;
     }
 
