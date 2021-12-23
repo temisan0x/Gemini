@@ -102,6 +102,9 @@ const ProSection = styled.div `
             width:100%;
         }
 
+        .button {
+            margin-bottom:50px
+        }
     }
 `
 

@@ -11,6 +11,7 @@ import GeminiEarn from './components/GeminiEarn';
 import Nifty from './components/Nifty';
 import ArticleContent from './components/ArticleContent';
 import ProNovice from './components/ProNovice';
+import LayoutContainer from './components/LayoutContainer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Nifty/>
         <ArticleContent/>
         <ProNovice/>
+        <LayoutContainer/>
       </div>
     </Router>
   );
