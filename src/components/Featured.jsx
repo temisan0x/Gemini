@@ -56,9 +56,9 @@ const FeaturedIn = styled.div`
         width:150px;
     }
 
-    @media screen and (:) {
+    @media screen and (max-width:900px) {
             align-items:center;  
-            margin-top: 42px;
+            margin-top: 22px;
         }
 `
 const More = styled.div`
@@ -78,6 +78,7 @@ const More = styled.div`
     }
 
     @media screen and (max-width:900px){
+    
     width: 100%;
     display: flex;
     align-items: center;
