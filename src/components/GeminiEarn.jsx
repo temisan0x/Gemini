@@ -12,8 +12,8 @@ const Section = styled.div `
         justify-content:space-between;
         align-items:center; 
         padding-top: 45px;
-        padding-left: 70px;
-        padding-right:70px;
+        padding-left: 20px;
+        padding-right:20px;
 
     
 
