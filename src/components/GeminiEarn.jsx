@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Trio from './../img/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png'
+import Trio from './../img/iphone'
 import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
