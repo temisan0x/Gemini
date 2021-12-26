@@ -177,7 +177,7 @@ function GeminiEarn() {
                     </Link>
                 </div>
                 <div className="earn_image">
-                    <img className="eImg" src="https://www.gemini.com/_next/static/images/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png.webp" alt="earn_image" />
+                    <img className="eImg" src="https://www.gemini.com/_next/static/images/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png.webp" alt="earn_image"  />
                 </div>
             </div>
         </Section>
