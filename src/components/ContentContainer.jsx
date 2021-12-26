@@ -4,7 +4,7 @@ import video2 from '../video/reveal-trio.mp4'
 
 const Content = styled.div `
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     background-color: rgb(207, 205, 210);
     overflow: hidden;
 

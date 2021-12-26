@@ -11,12 +11,13 @@ const Section = styled.div `
         width:100%;
         justify-content:space-between;
         padding-top: 45px;
-        padding-left:25px;
-        padding-right:25px;
+        padding-left:35px;
+        padding-right:35px;
     
         .earnText {
             width:50%; 
-            margin-bottom: 200px;   
+            margin-bottom: 300px;   
+            margin-top: 80px;
         }
 
         .picture {
@@ -45,7 +46,7 @@ const Section = styled.div `
         }
 
         .eImg {
-            width:200px;
+            width:250px;
         }
 
         a {
