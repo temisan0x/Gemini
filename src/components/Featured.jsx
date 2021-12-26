@@ -40,8 +40,6 @@ const FeaturedSection = styled.div `
     justify-content:space-evenly;
     align-items:center; 
     padding-top: 45px;
-    padding-left: 200px;
-    padding-right:200px;
 
 
     @media screen and (max-width:900px) {
@@ -52,6 +50,7 @@ const FeaturedSection = styled.div `
 const FeaturedIn = styled.div`
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 
     img {
         width:150px;
