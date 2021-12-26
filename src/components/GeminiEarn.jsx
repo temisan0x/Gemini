@@ -75,6 +75,35 @@ const Section = styled.div `
             white-space: nowrap;
         }
 
+        @media screen and (max-width: 768px) {
+            .containers {
+                line-height:20px;
+                display: flex;
+                width:100%;
+                justify-content:space-between;
+                align-items:center; 
+                padding-top: 45px;
+        }
+
+            flex-direction:column;
+
+            .earnText {
+                width:100%;
+                margin-bottom: 0px;
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .earn_image {
+                width:100%;
+                margin-top:50px;
+                display:flex;
+                justify-content: center;
+            }
+        }
+
+
     // @media (max-width:768px){
     //     .containers {
     //         line-height:20px;
@@ -91,9 +120,9 @@ const Section = styled.div `
     //         justify-content:center;
     //     }
 
-    //     .earn_more {
-    //         margin:0px auto;
-    //     }
+        .earn_more {
+            margin:0px auto;
+        }
 
     //     .earnText {
     //         width:100%;
