@@ -93,7 +93,7 @@ const Content = styled.div`
         }
 
         .nImg {
-            width:92px;
+            width:100px;
         }
 
         .nifty_text {
