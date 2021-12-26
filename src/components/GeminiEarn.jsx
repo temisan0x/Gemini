@@ -101,61 +101,9 @@ const Section = styled.div `
                 justify-content: center;
             }
         }
-
-
-    // @media (max-width:768px){
-    //     .containers {
-    //         line-height:20px;
-    //         display: flex;
-    //         width:100%;
-    //         justify-content:space-between;
-    //         align-items:center; 
-    //         padding-top: 45px;
-    //     }
-            
-    //         flex-direction: column;
-    //         width:100%;
-    //         align-items:center;
-    //         justify-content:center;
-    //     }
-
         .earn_more {
             margin:0px auto;
         }
-
-    //     .earnText {
-    //         width:100%;
-    //         margin-bottom: 0px;
-    //         align-items: center;
-    //         text-align: center;
-    //     }
-            
-    
-    //         h2 {
-    //             font-size: 32px;
-    //             line-height: 36px;
-    //             letter-spacing: 0px;
-    //             margin-top:25px;
-    //             font-weight:600;
-    //         }
-    
-    //         p {
-    //             font-size: 16px;
-    //             line-height: 34px;
-    //             margin-bottom: 20px;
-    //         }
-
-    //         .earn_image {
-    //             width:100%;
-    //             margin-top:50px;
-    //             display:flex;
-    //             justify-content: center;
-    //         }
-    //     }
-    //     .eImg {
-    //         width:300px;
-    //     }
-    
 `
 
 
