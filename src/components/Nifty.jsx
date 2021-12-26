@@ -39,7 +39,7 @@ const Content = styled.div`
     }
 
     .nifty_img {
-        width:20%; 
+        width:100%; 
         margin-top: 81px;
     }
 
