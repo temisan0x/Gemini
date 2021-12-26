@@ -5,16 +5,15 @@ import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
 const Section = styled.div `    
-    .containers {
-        line-height:20px;
-        display: flex;
-        width:100%;
-        justify-content:space-between;
-        align-items:center; 
-        padding-top: 45px;
+
+    line-height:20px;
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center; 
+    padding-top: 45px;
 
     
-
     .earnText {
         width:50%; 
         margin-bottom: 200px;
@@ -32,14 +31,10 @@ const Section = styled.div `
             line-height: 34px;
             margin-bottom: 20px;
         }
-    }
-
     
     .earn_image {
         width:100%;
         margin-top:50px;
-        display:flex;
-        justify-content: end;
     }
 
     .eImg {
@@ -72,13 +67,12 @@ const Section = styled.div `
         white-space: nowrap;
     }
 
-    @media screen and (max-width:768px){
-        .containers {
-            flex-direction: column;
+    @media screen and (max-width:900px)
+            display:flex;
+            flex-direction: column !important;
             width:100%;
             align-items:center;
             justify-content:center;
-        }
 
         .earn_more {
             margin:0px auto;
@@ -110,8 +104,6 @@ const Section = styled.div `
             .earn_image {
                 width:100%;
                 margin-top:50px;
-                display:flex;
-                justify-content: center;
             }
         }
 
@@ -143,7 +135,7 @@ function GeminiEarn() {
                     </Link>
                 </div>
                 <div className="earn_image">
-                    <img className="eImg" src={Trio} alt="earn_image" />
+                    <img className="eImg" src="https://www.gemini.com/_next/static/images/gemini-earn-iphone-09abc761e43f816f9934cce907ce8298.png.webp" alt="earn_image" />
                 </div>
             </div>
         </Section>
