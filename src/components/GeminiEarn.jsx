@@ -11,8 +11,8 @@ const Section = styled.div `
         width:100%;
         justify-content:space-between;
         padding-top: 45px;
-        padding-left:35px;
-        padding-right:35px;
+        padding-left: 10px;
+        padding-right:10px;
     
         .earnText {
             width:50%; 
