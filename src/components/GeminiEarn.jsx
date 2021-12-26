@@ -79,9 +79,9 @@ const Section = styled.div `
             justify-content:space-between;
             align-items:center; 
             padding-top: 45px;
-            flex-direction: column;
         }
-
+            
+            flex-direction: column;
             width:100%;
             align-items:center;
             justify-content:center;
