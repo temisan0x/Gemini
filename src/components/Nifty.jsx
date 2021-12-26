@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 
 const Content = styled.div`
     background:url(${background});
-    position:relative;
-    bottom:280px;
     padding-top: 45px;
     padding-left: 70px;
     padding-right:70px;
