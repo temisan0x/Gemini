@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Hero from './components/Hero';
 import Featured from './components/Featured';
 import ContentContainer from './components/ContentContainer';
-import GeminiEarn from './components/GeminiEarn';
 import Nifty from './components/Nifty';
 import ArticleContent from './components/ArticleContent';
 import ProNovice from './components/ProNovice';
@@ -22,7 +21,6 @@ function App() {
         <Hero />
         <Featured/>
         <ContentContainer/>
-        <GeminiEarn/>
         <Nifty/>
         <ArticleContent/>
         <ProNovice/>
