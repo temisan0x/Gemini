@@ -92,9 +92,9 @@ const Content = styled.div`
             justify-content: center;
         }
 
-        .nImg {
-            width:100px;
-        }
+        // .nImg {
+        //     width:100px;
+        // }
 
         .nifty_text {
             line-height:24px;
