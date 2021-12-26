@@ -4,8 +4,6 @@ import {Link} from "react-router-dom"
 
 const Layout = styled.div `
     background-color: rgb(26, 28, 29);
-    padding-left: 70px;
-    padding-right:70px;
     padding-top: 70px;
     padding-bottom: 56px;
     position: relative;

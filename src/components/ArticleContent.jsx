@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 const  Content = styled.div ` 
     position:relative;
     top:-180px;
-    padding-left: 70px;
-    padding-right:70px;
 
     h2 {
         font-size:36px;
