@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Trio from './../img/iphone'
+import Trio from './../img/iphone.png'
 import photo from './../img/dot.svg'
 import { Link } from 'react-router-dom';
 
