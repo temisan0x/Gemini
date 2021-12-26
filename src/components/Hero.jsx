@@ -5,6 +5,9 @@ import video from '../video/gemini-phone.mp4'
 const Container = styled.div`
     display: flex;
     padding-top: 45px;
+    padding-left:30px;
+    padding-right:30px;
+    display: flex;
     justify-content: space-between;
 
     .text_container {
@@ -56,6 +59,8 @@ const Container = styled.div`
 
     @media (max-width: 900px) {
         flex-direction: column;
+        padding-left:0px;
+        padding-right:0px;
 
         .text_container {
             width: 90%;
