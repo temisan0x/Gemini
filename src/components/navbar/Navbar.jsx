@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <>
         <Nav>
-            <div className="logo" id="#">
+            <div className="logo">
                 <Link to="/">
                     <img src={Logo} alt="logo" className='logo_header'/>
                 </Link>

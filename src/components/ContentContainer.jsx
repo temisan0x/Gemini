@@ -22,7 +22,7 @@ const Content = styled.div `
 
     .waitList_text {
         line-height: 32px;
-        width:60%
+        width:60%;
     }
 
     .waitList_text  h2 {
