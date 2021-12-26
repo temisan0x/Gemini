@@ -45,6 +45,7 @@ const Content = styled.div`
 
     .nImg {
         width:211px;
+        height:211px;
     }
 
 
@@ -92,9 +93,10 @@ const Content = styled.div`
             justify-content: center;
         }
 
-        // .nImg {
-        //     width:100px;
-        // }
+        .nImg {
+            width:100px;
+            height:100px;;
+        }
 
         .nifty_text {
             line-height:24px;
