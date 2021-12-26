@@ -89,7 +89,8 @@ const Content = styled.div`
 
         .nifty_img {
             margin:0 auto;
-            margin-top:50px
+            margin-top:50px;
+            text-align: center;
         }
 
         .nImg {
