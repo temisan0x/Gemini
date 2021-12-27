@@ -14,6 +14,7 @@ const Subscribe = styled.div`
         justify-content:space-around;
         width: 100%;        
         align-items:center;
+        
     }
 
     .input_flex {
@@ -68,6 +69,7 @@ const Subscribe = styled.div`
             min-width: 400px;
             max-width: 400px;
             display: -webkit-flex;
+            margin: 0 auto;
         }
 
         .input_flex {
