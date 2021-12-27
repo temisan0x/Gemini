@@ -12,6 +12,8 @@ const ProSection = styled.div `
     padding-top: 70px;
     padding-bottom: 56px;
 
+    
+
     .pro_flex {
         display:flex;
         width:100%;
@@ -71,6 +73,10 @@ const ProSection = styled.div `
     }
 
     @media screen and (max-width:768px){
+
+        padding-left: 30px;
+        padding-right: 30px;
+
         .pro_flex {
             flex-direction: column;
             
