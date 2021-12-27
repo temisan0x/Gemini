@@ -66,11 +66,15 @@ const Subscribe = styled.div`
         .subscribe_flex {
             flex-direction: column;
             align-items: start;
+            width:100%;
+            min-width: 300px;
+            max-width: 600px;
+            display: -webkit-flex;
         }
 
         .input_flex {
             flex-direction: column;
-            width: 90%;
+            width: 100%;
             overflow: visible;
             border: none;
             height:30px;
