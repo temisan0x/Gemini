@@ -37,6 +37,10 @@ const Layout = styled.div `
     }
 
     @media screen and (max-width:768px) {
+        
+        padding-left: 30px;
+        padding-right: 30px;
+
         h2 {
             font-size: 24px;
         }

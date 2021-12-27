@@ -8,7 +8,7 @@ const Subscribe = styled.div`
     padding-right:70px;
     padding-top: 70px;
     padding-bottom: 56px;
-    
+
     .subscribe_flex {
         display:flex;
         justify-content:space-around;
@@ -59,6 +59,9 @@ const Subscribe = styled.div`
     
 
     @media screen and (max-width:768px) {
+
+        padding-left: 30px;
+        padding-right: 30px;
 
         .subscribe_flex {
             flex-direction: column;
