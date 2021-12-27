@@ -14,8 +14,6 @@ const Subscribe = styled.div`
         justify-content:space-around;
         width: 100%;        
         align-items:center;
-        padding-right: 100px;
-        padding-left: 100px;
     }
 
     .input_flex {
@@ -65,10 +63,10 @@ const Subscribe = styled.div`
 
         .subscribe_flex {
             flex-direction: column;
-            align-items: start;
+            align-items: center;
             width:100%;
-            min-width: 300px;
-            max-width: 600px;
+            min-width: 400px;
+            max-width: 400px;
             display: -webkit-flex;
         }
 
@@ -77,29 +75,28 @@ const Subscribe = styled.div`
             width: 100%;
             overflow: visible;
             border: none;
-            height:30px;
         }
 
         p {
-            margin-bottom:20px;
+            margin-bottom:40px;
             font-size: 16px;
             color:rgb(1,3,4);
-            align-items: flex-start;
             display: flex;
-            padding-left: 0rem;
-            margin-left: 0px;
+            justify-content:center;
         }
 
         #email, .sub_btn {
             width: 100%;
             border: none;
-            padding: 20px 20px; 
+            padding-top: 20px; 
+            padding-bottom:20px;
             outline: none;
             color: rgb(1, 3, 4);        
             background: transparent;
             border-radius: 20px;
             border: 1px solid black;
             margin-bottom: 18px;
+
         }
         
         
