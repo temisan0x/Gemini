@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 const Subscribe = styled.div`
     position:relative;
-    bottom: 80px;
-    padding-top: 45px;
+    top: 50px;
     padding-left: 70px;
     padding-right:70px;
-
+    padding-top: 70px;
+    padding-bottom: 56px;
+    
     .subscribe_flex {
         display:flex;
         justify-content:space-around;
