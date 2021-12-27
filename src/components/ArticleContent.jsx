@@ -11,8 +11,8 @@ const  Content = styled.div `
         font-size:36px;
         font-weight:600;
         line-height: 44px;
-        margin-top:20px;
-        margin-bottom:15px;
+        margin-top: 60px;
+        margin-bottom: 25px;
     }
 
     .crypto_flex {
@@ -23,6 +23,7 @@ const  Content = styled.div `
         padding-right:5px;
         justify-content:space-between;
         flex-direction:1.6;
+        margin-bottom: 15px;
     }
 
 

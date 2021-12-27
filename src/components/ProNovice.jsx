@@ -6,7 +6,7 @@ import novice from './../img/tools-0c1109d217e717d74eb146334e8111e4.png'
 const ProSection = styled.div `
     background-color: rgb(247, 247, 247);
     position:relative;
-    top:-80px;
+    top: 50px;
     padding-left: 70px;
     padding-right:70px;
     padding-top: 70px;
