@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const  Content = styled.div ` 
-    position:relative;
-    padding-left: 10px;
-    padding-right:10px;
+    position:relative;   
+    padding-left: 70px;
+    padding-right:70px;
 
     h2 {
         font-size:36px;
@@ -53,12 +53,12 @@ const  Content = styled.div `
     }
 
     @media screen and (max-width:768px) {
+        padding-left:30px;
+        padding-right:30px; 
 
         .crypto_flex {
             display:flex;
             flex-direction: column;
-            padding-left:0px;
-            padding-right:0px;
         }
 
         h2 {
