@@ -41,6 +41,9 @@ const Content = styled.div`
     .nifty_img {
         width:100%; 
         margin-top: 81px;
+        align-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .nImg {
