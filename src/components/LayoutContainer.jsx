@@ -7,7 +7,7 @@ const Layout = styled.div `
     padding-top: 70px;
     padding-bottom: 56px;
     position: relative;
-    top: -80px;
+    top: 50px;
 
 
     .layout_flex {
