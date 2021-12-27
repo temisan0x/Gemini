@@ -26,7 +26,7 @@ const Subscribe = styled.div`
         border-radius: 20px;
         border: 1px solid black;
         overflow: hidden;
-        margin-right:30px;
+        margin: 0 auto;
     }
 
     p {
@@ -66,8 +66,6 @@ const Subscribe = styled.div`
             flex-direction: column;
             align-items: center;
             width:100%;
-            min-width: 400px;
-            max-width: 400px;
             display: -webkit-flex;
             margin: 0 auto;
         }
