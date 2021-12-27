@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 const Content = styled.div`
     background:url(${background});
     padding-top: 45px;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 70px;
+    padding-right:70px;
     
     
     .nifty {
@@ -21,7 +21,8 @@ const Content = styled.div`
         padding-top: 81px;
         display:flex;
         flex-direction: column;
-        
+        margin-right: 40px;
+
         h2 {
             font-weight: 600;
             color:#fff;
