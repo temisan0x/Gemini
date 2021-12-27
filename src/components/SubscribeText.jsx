@@ -83,6 +83,7 @@ const Subscribe = styled.div`
             color:rgb(1,3,4);
             display: flex;
             justify-content:center;
+            margin-left:0;
         }
 
         #email, .sub_btn {
