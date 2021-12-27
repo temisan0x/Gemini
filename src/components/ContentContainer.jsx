@@ -7,6 +7,8 @@ const Content = styled.div `
     padding-bottom: 10px;
     background-color: rgb(207, 205, 210);
     overflow: hidden;
+    padding-left: 70px;
+    padding-right:70px;
 
     .container {
         flex-direction: row;
@@ -16,8 +18,6 @@ const Content = styled.div `
         justify-content:space-between;
         align-items:center; 
         padding-top: 25px;
-        padding-left: 10px;
-        padding-right:10px;
     }
 
     .waitList_text {
@@ -59,13 +59,12 @@ const Content = styled.div `
 
 
     @media screen and (max-width: 768px){
+        padding-left:30px;
+        padding-right:30px; 
+
         .container {
             flex-direction: column;
-            width:100%;
-            padding-left:30px;
-            padding-right:30px;
-
-        
+            width:100%;     
         }
 
         .waitList_video {
@@ -98,6 +97,12 @@ const Content = styled.div `
         .wvideo {
             width:100%;
         }
+
+        .span {
+            margin-right: 150px;
+            padding-left: 25px;
+            padding-top: 1px;
+        }
     }
 
     .span {
@@ -107,14 +112,6 @@ const Content = styled.div `
         font-size: 12px;
         line-height: 20px;
         letter-spacing: 0px;
-    }
-
-    @media screen and (max-width:768px){
-        .span {
-            margin-right: 150px;
-            padding-left: 25px;
-            padding-top: 1px;
-        }
     }
 
     .waitList_btn {
