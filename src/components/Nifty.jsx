@@ -21,9 +21,7 @@ const Content = styled.div`
         padding-top: 81px;
         display:flex;
         flex-direction: column;
-        width:75%;
-        padding-right: 50px;
-
+        
         h2 {
             font-weight: 600;
             color:#fff;
