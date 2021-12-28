@@ -33,6 +33,7 @@ const Subscribe = styled.div`
         font-weight:600;
         font-size: 16px;
         margin-left: 100px;
+        
     }
 
     #email {
