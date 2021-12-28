@@ -58,12 +58,16 @@ function Coin () {
                     <th>Market Cap Change</th>
                     <th>Market Cap Rank</th>
                 </tr>
-                <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                    <td>Germany</td>
-                </tr>
+                {coins.map(coin => {
+                    return (
+                        <tr>
+                            <td>{coin.name}</td>
+                            <td>{coin.current_price}</td>
+                            <td></td>
+                            <td>Germany</td>
+                        </tr>
+                    )
+                })}
             </table>
         </CryptoTable>
     )
