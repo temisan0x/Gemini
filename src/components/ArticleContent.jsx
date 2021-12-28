@@ -26,7 +26,6 @@ const  Content = styled.div `
         margin-bottom: 15px;
     }
 
-
     .crypto_row {
         width:50%;
     }
