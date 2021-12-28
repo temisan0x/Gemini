@@ -39,6 +39,14 @@ const CryptoTable = styled.div `
     img{
         width:100px;
     }
+
+    .green {
+        color:#008000;
+    }
+
+    .red {
+        color
+    }
 `
 
 function Coin () {
@@ -69,9 +77,13 @@ function Coin () {
                                 <img src={coin.image} alt="crypto-logo" />
                             </td>
                             <td>{coin.current_price}</td>
-                            {priceChange < 0 ? (
-                                <td>
-                                    {priceChange.toFixed()}
+                            {coin.market_cap_change_percentage_24h < 0 ? (
+                                <td className="red">
+                                    {coin.market_cap_change_percentage_24h.toFixed(2)}%
+                                </td>
+                            ): (
+                                <td className="green">
+                                    {coin.market_cap_change_percentage_24h.toFixed(2)}%
                                 </td>
                             )}
                             <td>{coin.market_cap_rank}</td>
