@@ -37,34 +37,36 @@ const CryptoTable = styled.div `
     }
 `
 
-function Coin() {
+function Coin () {
 
     const [coins, setCoins] = useState([]);
 
     useEffect(() => {
-        axios.get("")
-        .then(response => {
-            setCoins(response.data);
+        axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false")
+        .then(res => {
+            setCoins(res.data);
+            console.log(res.data);
         })
-    })
+    }, [])
 
     return (
         <CryptoTable>
             <table id="customers">
                 <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
+                    <th>Crypto Name</th>
+                    <th>Current Price</th>
+                    <th>Market Cap Change</th>
+                    <th>Market Cap Rank</th>
                 </tr>
                 <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
                 </tr>
                 <tr>
-                <td>Berglunds snabbköp</td>
-                <td>Christina Berglund</td>
-                <td>Sweden</td>
+                    <td>Berglunds snabbköp</td>
+                    <td>Christina Berglund</td>
+                    <td>Sweden</td>
                 </tr>
                 <tr>
                 <td>Centro comercial Moctezuma</td>
