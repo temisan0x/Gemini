@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
-import 'bootstrap/dist/css/bootstrap.css';
-import { Col, Container, Row } from 'reactstrap';
 import logo from '../../img/gemini.jpg'
 
 const Crypto = styled.div `
+
+    .crypto_flex {
+        display:flex !important;
+
+        
+    }
+
     .logo {
         width:200px;
     }
@@ -13,13 +18,11 @@ const Crypto = styled.div `
 function Logo() {
     return (
         <Crypto>
-            <Container>
-                <Row>
-                    <Col className="text-center mt-5" md="12">
+                <div className="crypto_flex">
+                    <div className="text-center mt-5 mb-3" md="12">
                         <img src={logo} alt="logo" className="logo"/>
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
         </Crypto>
     )
 }
