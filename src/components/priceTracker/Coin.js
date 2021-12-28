@@ -6,8 +6,7 @@ const CryptoTable = styled.div `
 
     position:relative;
     top:70px;
-    // padding-left: 100px;
-    // padding-right: 100px;
+
 
     #customers {
         font-family: Arial, Helvetica, sans-serif;
@@ -19,6 +18,7 @@ const CryptoTable = styled.div `
         font-weight:bold;
         margin-left:auto;
         margin-right:auto;
+        text-align:center;
     }
     
     #customers td, #customers th {
@@ -69,13 +69,12 @@ const CryptoTable = styled.div `
     @media screen and (max-width:800px){
         position:relative;
         top:70px;
-        // padding-left: 50px;
-        // padding-right: 5px;
     }
 
     #customers {
         margin-left:auto;
         margin-right:auto;
+        width:auto
     }
     
 `
