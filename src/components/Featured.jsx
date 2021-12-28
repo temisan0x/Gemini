@@ -78,7 +78,6 @@ const More = styled.div`
     }
 
     @media screen and (max-width:900px){
-    
     width: 100%;
     display: flex;
     align-items: center;
