@@ -27,9 +27,9 @@ function App() {
         <ArticleContent/>
         <ProNovice/>
         <LayoutContainer/>
-        <SubscribeText/>
         <Logo/>
         <Coin/>
+        <SubscribeText/>
       </div>
     </Router>
   );

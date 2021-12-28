@@ -4,25 +4,29 @@ import logo from '../../img/gemini.jpg'
 
 const Crypto = styled.div `
 
-    .crypto_flex {
-        display:flex !important;
+    position:relative;
+    top:70px;
+    margin-bottom:50px;
 
-        
+    .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin:30px;
     }
 
     .logo {
         width:200px;
     }
+
 `
 
 function Logo() {
     return (
         <Crypto>
-                <div className="crypto_flex">
-                    <div className="text-center mt-5 mb-3" md="12">
-                        <img src={logo} alt="logo" className="logo"/>
-                    </div>
-                </div>
+            <div className="image">
+                <img src={logo} alt="logo" className="logo"/>
+            </div>
         </Crypto>
     )
 }
