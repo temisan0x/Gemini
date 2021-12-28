@@ -32,7 +32,7 @@ const Subscribe = styled.div`
     p {
         font-weight:600;
         font-size: 16px;
-        margin-left:50px;
+        margin-left: 100px;
     }
 
     #email {
