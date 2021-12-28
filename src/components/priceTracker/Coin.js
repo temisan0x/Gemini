@@ -35,7 +35,8 @@ const CryptoTable = styled.div `
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
-        background-color: #161819;
+        background:#000000;
+        color: white !important;
         color: white;
         line-height:20px;
         text-align:center;
@@ -43,10 +44,7 @@ const CryptoTable = styled.div `
 
     tr {
         height:100px;
-        background: #000000;  
-        background: -webkit-linear-gradient(to right, #434343, #000000); 
-        background: linear-gradient(to right, #434343, #000000);
-        color: white !important;
+        background-color: #fff;
     }
 
     img{
@@ -64,6 +62,10 @@ const CryptoTable = styled.div `
 
     table {
         cursor: pointer;
+    }
+
+    p {
+        line-height:1;
     }
 
     @media screen and (max-width:800px){
