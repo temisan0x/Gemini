@@ -29,12 +29,10 @@ const  Content = styled.div `
 
     .crypto_row {
         width:50%;
-        flex-grow:0;
     }
 
     .crypto_row2 {
         width:50%;
-        flex-grow:0;
     }
 
 
