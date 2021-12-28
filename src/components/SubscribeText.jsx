@@ -106,6 +106,7 @@ const Subscribe = styled.div`
             color: white;
             margin-bottom: 50px;
             border-radius: 20px;
+            cursor:pointer;
         }
 
     }
