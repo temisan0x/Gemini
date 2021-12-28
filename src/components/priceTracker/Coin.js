@@ -41,6 +41,13 @@ function Coin() {
 
     const [coins, setCoins] = useState([]);
 
+    useEffect(() => {
+        axios.get("")
+        .then(response => {
+            setCoins(response.data);
+        })
+    })
+
     return (
         <CryptoTable>
             <table id="customers">
