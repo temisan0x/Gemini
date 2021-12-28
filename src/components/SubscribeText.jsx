@@ -120,7 +120,7 @@ function SubscribeText() {
                 <p>Stay up to date</p>
                 <div className="input_flex">
                     <input type="email" name="email" id="email" label="email" placeholder='Email address' className="email"/>
-                    <button className="sub_btn">
+                    <button className="sub_btn" style={{cursor: "pointer"}}>
                         Subscribe
                     </button>
                 </div>
