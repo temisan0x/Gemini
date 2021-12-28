@@ -6,6 +6,8 @@ const CryptoTable = styled.div `
 
     position:relative;
     top:70px;
+    padding-left: 100px;
+    padding-right: 100px;
 
     #customers {
         font-family: Arial, Helvetica, sans-serif;
@@ -37,15 +39,21 @@ const CryptoTable = styled.div `
     }
 
     img{
-        width:100px;
+        width:40px;
+        margin-right:50px;
     }
+
 
     .green {
         color:#008000;
     }
 
     .red {
-        color:red;
+        color:#ff0000;
+    }
+
+    table {
+        cursor: pointer;
     }
 `
 
@@ -73,8 +81,9 @@ function Coin () {
                 {coins.map(coin => {
                     return (
                         <tr>
-                            <td>{coin.name}
+                            <td>
                                 <img src={coin.image} alt="crypto-logo" />
+                                {coin.name}
                             </td>
                             <td>{coin.current_price}</td>
                             {coin.market_cap_change_percentage_24h < 0 ? (
