@@ -15,11 +15,13 @@ const CryptoTable = styled.div `
         width: 100%;
         border-collapse:seperate;
         border-spacing:0 5px;
+        font-size:13px;
     }
     
     #customers td, #customers th {
         border: 1px solid #ddd;
         padding: 8px;
+        text-align: center;
     }
     
     #customers tr:nth-child(even){background-color: #f2f2f2;}
@@ -32,15 +34,21 @@ const CryptoTable = styled.div `
         text-align: left;
         background-color: #161819;
         color: white;
+        line-height:20px;
+        text-align:center;
     }
 
     tr {
         height:100px;
+        background: #000000;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        color: white !important;
     }
 
     img{
         width:40px;
-        margin-right:50px;
     }
 
 
@@ -54,6 +62,13 @@ const CryptoTable = styled.div `
 
     table {
         cursor: pointer;
+    }
+
+    @media screen and (max-width:800px){
+        position:relative;
+        top:70px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 `
 
@@ -73,6 +88,7 @@ function Coin () {
         <CryptoTable>
             <table id="customers">
                 <tr>
+                    <th>Coin</th>
                     <th>Crypto Name</th>
                     <th>Current Price</th>
                     <th>Market Cap Change</th>
@@ -83,7 +99,11 @@ function Coin () {
                         <tr>
                             <td>
                                 <img src={coin.image} alt="crypto-logo" />
-                                {coin.name}
+                            </td>
+                            <td>
+                                <div>
+                                    <p>{coin.name}</p>
+                                </div>
                             </td>
                             <td>{coin.current_price}</td>
                             {coin.market_cap_change_percentage_24h < 0 ? (
