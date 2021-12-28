@@ -45,7 +45,7 @@ const CryptoTable = styled.div `
     }
 
     .red {
-        color
+        color:red;
     }
 `
 
