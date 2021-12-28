@@ -12,6 +12,8 @@ import ArticleContent from './components/ArticleContent';
 import ProNovice from './components/ProNovice';
 import LayoutContainer from './components/LayoutContainer';
 import SubscribeText from './components/SubscribeText';
+import Logo from './components/priceTracker/Logo';
+import Coin from './components/priceTracker/Coin';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <ProNovice/>
         <LayoutContainer/>
         <SubscribeText/>
+        <Logo/>
+        <Coin/>
       </div>
     </Router>
   );
