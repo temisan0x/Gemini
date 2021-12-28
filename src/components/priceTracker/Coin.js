@@ -6,16 +6,19 @@ const CryptoTable = styled.div `
 
     position:relative;
     top:70px;
-    padding-left: 100px;
-    padding-right: 100px;
+    // padding-left: 100px;
+    // padding-right: 100px;
 
     #customers {
         font-family: Arial, Helvetica, sans-serif;
         border-collapse: collapse;
-        width: 100%;
+        width: 50%;
         border-collapse:seperate;
         border-spacing:0 5px;
         font-size:13px;
+        font-weight:bold;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     #customers td, #customers th {
@@ -40,10 +43,9 @@ const CryptoTable = styled.div `
 
     tr {
         height:100px;
-        background: #000000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: #000000;  
+        background: -webkit-linear-gradient(to right, #434343, #000000); 
+        background: linear-gradient(to right, #434343, #000000);
         color: white !important;
     }
 
@@ -67,9 +69,15 @@ const CryptoTable = styled.div `
     @media screen and (max-width:800px){
         position:relative;
         top:70px;
-        padding-left: 30px;
-        padding-right: 30px;
+        // padding-left: 50px;
+        // padding-right: 5px;
     }
+
+    #customers {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
 `
 
 function Coin () {
