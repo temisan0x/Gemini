@@ -69,7 +69,11 @@ function Coin () {
                                 <img src={coin.image} alt="crypto-logo" />
                             </td>
                             <td>{coin.current_price}</td>
-                            <td>ss</td>
+                            {priceChange < 0 ? (
+                                <td>
+                                    {priceChange.toFixed()}
+                                </td>
+                            )}
                             <td>{coin.market_cap_rank}</td>
                         </tr>
                     )
