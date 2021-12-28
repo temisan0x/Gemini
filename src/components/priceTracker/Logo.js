@@ -5,7 +5,9 @@ import { Col, Container, Row } from 'reactstrap';
 import logo from '../../img/gemini.jpg'
 
 const Crypto = styled.div `
-
+    .logo {
+        width:200px;
+    }
 `
 
 function Logo() {
@@ -14,7 +16,7 @@ function Logo() {
             <Container>
                 <Row>
                     <Col className="text-center" md="12">
-                        <img src={logo} alt="logo"/>
+                        <img src={logo} alt="logo" className="logo"/>
                     </Col>
                 </Row>
             </Container>
