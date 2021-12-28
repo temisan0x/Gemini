@@ -35,6 +35,10 @@ const CryptoTable = styled.div `
     tr {
         height:100px;
     }
+
+    img{
+        width:100px;
+    }
 `
 
 function Coin () {
@@ -61,10 +65,12 @@ function Coin () {
                 {coins.map(coin => {
                     return (
                         <tr>
-                            <td>{coin.name}</td>
+                            <td>{coin.name}
+                                <img src={coin.image} alt="crypto-logo" />
+                            </td>
                             <td>{coin.current_price}</td>
-                            <td></td>
-                            <td>Germany</td>
+                            <td>ss</td>
+                            <td>{coin.market_cap_rank}</td>
                         </tr>
                     )
                 })}
