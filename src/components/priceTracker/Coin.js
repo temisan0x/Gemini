@@ -1,5 +1,6 @@
-import React from 'react'; 
+import React, {useState, useEffect} from 'react'; 
 import styled from 'styled-components';
+import axios from 'axios';
 
 const CryptoTable = styled.div `
 
@@ -37,6 +38,9 @@ const CryptoTable = styled.div `
 `
 
 function Coin() {
+
+    const [coins, setCoins] = useState([]);
+
     return (
         <CryptoTable>
             <table id="customers">

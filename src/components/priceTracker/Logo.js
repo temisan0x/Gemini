@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import logo from '../../img/gemini.jpg'
+import logo from '../../img/gemini.jpg';
 
 const Crypto = styled.div `
 
