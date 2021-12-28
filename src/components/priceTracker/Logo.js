@@ -15,7 +15,7 @@ function Logo() {
         <Crypto>
             <Container>
                 <Row>
-                    <Col className="text-center" md="12">
+                    <Col className="text-center mt-5" md="12">
                         <img src={logo} alt="logo" className="logo"/>
                     </Col>
                 </Row>
